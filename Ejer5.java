@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Ejer5 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner terminal = new Scanner(System.in);
         System.out.println("Ingresa un numero a dividir");
-        int numero = scanner.nextInt();
+        int numero = terminal.nextInt();
 
         if (numero % 2 == 0){
             System.out.println("El numero " + numero + " es divisible entre 2");
@@ -13,6 +13,6 @@ public class Ejer5 {
             System.out.println("El numero " + numero + " no es divisible entre 2");
         }
 
-        scanner.close();
+        terminal.close();
     }
 }
