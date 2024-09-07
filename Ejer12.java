@@ -11,7 +11,6 @@ public class Ejer12 {
         int num2 = Integer.parseInt(texto2);
 
         for (int i = 0; i < 10; i++) {
-            //Generamos un numero aleatorio
             int numAleatorio = (int) Math.floor(Math.random() * (num1 - num2) + num2);
             System.out.println(numAleatorio);
         }
