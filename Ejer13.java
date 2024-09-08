@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Ejer13 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un numero");
-        int numero = sc.nextInt();
+        int numero = scanner.nextInt();
         if (numero <= 1) {
             System.out.println("El numero " + numero + " no es primo");
         } else {
@@ -23,6 +23,6 @@ public class Ejer13 {
                 System.out.println("El numero " + numero + " no es primo");
             }
         }
-        sc.close();
+        scanner.close();
     }
 }
